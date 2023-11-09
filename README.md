@@ -37,6 +37,10 @@ The following image shows a mock-up of the note taker application, which consist
 
 ![Image showing the note taker layout page once user selects Get Started on the landing page.](./assets/11-express-homework-demo-01.png)
 
+## Usage (URL to Application)
+
+[Click here for application URL](https://arcane-waters-60041-fabce6d99b88.herokuapp.com/notes)
+
 ## Installation
 
 The server.js contributes the following:

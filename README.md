@@ -2,7 +2,7 @@
 
 ## Your Task
 
-This assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data (title, text, ID/uuid) from a JSON file.
 
 ## User Story
 
@@ -36,6 +36,10 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 The following image shows a mock-up of the note taker application, which consists of saved notes and the layout for adding notes:
 
 ![Image showing the note taker layout page once user selects Get Started on the landing page.](./assets/11-express-homework-demo-01.png)
+
+## Usage (URL to Application)
+
+[Click here for application URL](https://arcane-waters-60041-fabce6d99b88.herokuapp.com/notes)
 
 ## Installation
 

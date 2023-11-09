@@ -1,5 +1,5 @@
 const express = require('express');
-const api = require('./develop/route/noteRoute');
+const api = require('./route/noteRoute');
 const app = express();
 const path = require('path');
 
@@ -12,11 +12,12 @@ app.use(express.static('public'));
 app.use('/api', api);
 
 app.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './develop/public/notes.html'));
+    console.log((path.join(__dirname, 'public/notes.html')));
+    res.sendFile(path.join(__dirname, 'public/notes.html'));
   });
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, './develop/public/index.html'));
+    res.sendFile(path.join(__dirname, 'public/index.html'));
   });
 
 app.listen(PORT, () => {

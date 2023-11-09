@@ -2,10 +2,7 @@
 
 ## Your Task
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
-
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Heroku.
-
+This assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
 ## User Story
 
@@ -36,41 +33,35 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 ## Mock-Up
 
-The following image shows a mock-up of the generated SVG given the following input entered by the user: `XYZ` for the text, `green` for the text color, `Triange` from the list of shapes, and `Orange` for the shape color:
+The following image shows a mock-up of the note taker application, which consists of saved notes and the layout for adding notes:
 
-![Image showing an orange triange with green text that reads "XYZ.".](./logo-examples/logoXYZ.svg)
+![Image showing the note taker layout page once user selects Get Started on the landing page.](./assets/11-express-homework-demo-01.png)
 
 ## Installation
 
 The server.js contributes the following:
 
--The structure, position, and color of the shapes (circle, square, and triange).
+-Creation of paths for the site, as well as the port for the localhost and pointing the app/api towards the HTML files in order to retrieve the contents of the files.
 
 The noteRoute.js contributes the following:
 
--Successful test results for each of the shapes, when run in the command line.
+-Takes the functions from the fsUtils file, in order to get, post, and delete data.
 
 The fsUtils.js contributes the following:
 
--The specifics for the text element, the question inputs for the command line, the generation and placement of the logo/svg file.
+-Retrieves the data that is entered with the note and either create, deletes, and reads the note in order to make the data from the db.json file visible.
 
 The package.json/package-lock.js contributes the following:
 
--Details on the dependencies for the project (inquirer, jest).
+-Details on the dependencies for the project (express, react, uuid, nodemon).
 
 The html and css files contribute the following:
 
--
-
-## Usage
-
-Please click the following link to view a step by step tutorial of the logo generation/command line application.
-
-[Demo](https://drive.google.com/file/d/1l1cECdeZfytoMKftQaVB5JF8-F06A852/view)
+-The structure and style choices for the application.
 
 ## Credits
 
-N/A
+Robert Peterson (Calendy Tutor) assisted with resolving issues with the display of the saved data/notes.
 
 ## License
 
